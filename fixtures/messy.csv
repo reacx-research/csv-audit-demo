@@ -1,0 +1,10 @@
+﻿record_id,item,quantity,note
+S-001," Café mug "," 2 ","Gift, blue"
+S-002,Notebook,3,"Two lines:
+keep both"
+ S-001 ,Café mug,2,"Gift, blue"
+S-003,Pen,,"Quantity missing: retain blank"
+
+S-004,Sticker
+S-005,Card,1,OK,EXTRA
+S-006,"Quote ""inside""",1,"Contains Zoë and 東京"
