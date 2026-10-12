@@ -1,0 +1,5 @@
+row_number,line_from,line_to,reason,detail,raw_record,parsed_values_json
+6,8,8,column_count,"Expected 4 columns, found 2","S-004,Sticker
+","[""S-004"", ""Sticker""]"
+7,9,9,column_count,"Expected 4 columns, found 5","S-005,Card,1,OK,EXTRA
+","[""S-005"", ""Card"", ""1"", ""OK"", ""EXTRA""]"

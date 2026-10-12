@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "input_sha256": "c310516030d396301a3ae221eadb721a7083f6fbe42541f4090e11b1696e9942",
+  "input_bytes": 289,
+  "output_sha256": "c6e913973370c4b4f02d2368bea0a23ec2579594e1a41fd1dcb279de5d17c106",
+  "utf8_bom_preserved": true,
+  "columns": [
+    "record_id",
+    "item",
+    "quantity",
+    "note"
+  ],
+  "input_data_records": 8,
+  "retained_data_records": 6,
+  "rejected_data_records": 2,
+  "changed_cells": 0,
+  "options": {
+    "whitespace": "preserve",
+    "blank_rows": "keep",
+    "dedupe": "none",
+    "max_rows": 10000
+  },
+  "rejected": [
+    {
+      "row_number": 6,
+      "line_from": 8,
+      "line_to": 8,
+      "raw_record": "S-004,Sticker\r\n",
+      "values": [
+        "S-004",
+        "Sticker"
+      ],
+      "reason": "column_count",
+      "detail": "Expected 4 columns, found 2"
+    },
+    {
+      "row_number": 7,
+      "line_from": 9,
+      "line_to": 9,
+      "raw_record": "S-005,Card,1,OK,EXTRA\r\n",
+      "values": [
+        "S-005",
+        "Card",
+        "1",
+        "OK",
+        "EXTRA"
+      ],
+      "reason": "column_count",
+      "detail": "Expected 4 columns, found 5"
+    }
+  ],
+  "notes": [
+    "No missing values inferred; fields remain text.",
+    "Header names and column order unchanged.",
+    "Output serialization uses LF; quoting may differ from input.",
+    "Original file is preserved byte for byte.",
+    "Normalized dedupe uses NFC and edge trimming, case-sensitive."
+  ],
+  "source_name": "messy.csv",
+  "input_sha256_after": "c310516030d396301a3ae221eadb721a7083f6fbe42541f4090e11b1696e9942",
+  "input_unchanged": true
+}
